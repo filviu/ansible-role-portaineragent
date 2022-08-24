@@ -8,7 +8,7 @@ name: CI
 
 defaults:
   run:
-    working-directory: 'filviu\.portaineragent'
+    working-directory: 'filviu.portaineragent'
 
 jobs:
 
@@ -19,7 +19,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v2
         with:
-          path: 'filviu\.portaineragent'
+          path: 'filviu.portaineragent'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v2
@@ -51,7 +51,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v2
         with:
-          path: 'filviu\.portaineragent'
+          path: 'filviu.portaineragent'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v2
