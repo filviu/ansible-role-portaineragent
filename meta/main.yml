@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: portaineragent
-  author: Silviu Vulcan
+  author: filviu
   description: A role to add a Portainer Agent to the node as a Docker Service. Initially developed by Rob /Stanford at Gendall Design
 
   license: "license (BSD, MIT)"
